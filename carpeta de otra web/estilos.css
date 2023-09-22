@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(36, 39, 37);
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgb(31, 31, 31) ; 
+    height: 70px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(236, 230, 230);
+    margin-left: 20px;
+   
+}
+
+a:hover{
+    color: rgb(6, 240, 166);
+    transition: 0.1s;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 427px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(54, 53, 53);
+    margin-top: 2px;
+}
+
+.contenedor img{
+    width: 650px;
+    height: 400px;
+    margin-top: 60px;
+    display:inline-block;
+    justify-content: righ;
+    margin-right: 50px;
+}
+.btn{   
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 100 px;       
+}
+.tamaño{
+    width: 400px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 90px;
+    
+}
+.barra{
+    width: 90px;
+    height: 30px;
+    color: rgb(12, 12, 12);
+    margin: 5px;
+}
+.pagina{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(12, 12, 12);
+    margin-top: 55px;
+}
+.musica{
+    position: absolute;
+    margin-right: 900px;
+    margin-top: -300px;
+    color: rgb(74, 74, 77);  
+}
+.letras{
+    color: white;
+    margin-left: 100px;
+    margin-right: 180px;
+    margin-top: 100px;
+    font-size: 20px;
+    
+
+}
+
+.terminar{
+    color: grey;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(54, 53, 53);
+  
+}
+ul li{
+    margin: 20px;
+    color: rgb(83, 83, 83);   
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
